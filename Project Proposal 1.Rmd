@@ -1,0 +1,96 @@
+---
+title: "Capstone Project Proposal"
+author: "Swathi Sethumadhavan (March 28th Cohort)"
+date: "5 April 2016"
+output: html_document
+---
+  
+**Proposal 1:**  
+Predicting which food chains in San Francisco are likely to close down in the near future
+
+*Problem*:  
+San Francisco is as famous for its restaurants and food trends as it is for its Golden Gate Bridge and cable cars.Forty percent of visitors to San Francisco cite restaurants as a factor affecting their decision to visit.  
+  
+The Centers for Disease Control and Prevention (CDC) estimates that more than 48 million people a year get sick from food-borne illnesses, 128,000 are hospitalized and 3,000 die. About 60 percent of outbreaks come from restaurants, according to the CDC.  
+  
+In 2005, San Francisco was one of the first cities to put its restaurant inspection information online.  Eight years later, it was in the forefront once again, becoming the first city to sign onto the Yelp initiative to list health scores alongside diner reviews.  
+  
+*Objectives*:  
+a) To correlate between the health inspection scores of various Restaurants released by San Francisco Department of Public Health(SFPDC) and it's Yelp Reviews.  
+b) To find out the scale of improvement in the health inspection scores of various restaurants from the previous year.  
+c) To predict the sick restaurants that are in the verge of close down due to poor health inspection scores and Yelp ratings. 
+d) To predict future health scores of the various restaurants.  
+  
+*Data*:   
+a) Yelp Review -  I could not find San Francisco Reviews in Yelp Academic Data set. I will have to scrap relevant data from Yelp food establishment sites because Yelp's public API is very limited and does not contain full reviews.  
+b) Restaurant Inspection Data -https://data.sfgov.org/Health-and-Social-Services/Restaurant-Scores/stya-26eb    
+  
+
+**Proposal 2:**  
+Predicting food-borne illness with the help of Tweets and Yelp Review and correlating it with the Patient Discharge Diagnosis Data.  
+  
+*Problem*:  
+Food-borne illness is a common, costly-yet preventable-public health problem. Each year, 1 in 6 Americans gets sick by consuming contaminated foods or beverages. Many different disease-causing microbes, or pathogens, can contaminate foods, so there are many different food-borne infections.  
+  
+Emerging evidence on the effectiveness of social media for food-borne illness surveillance suggests mining tweets and restaurant reviews might aid in identifying and taking action on localized food-borne illness complaints that would otherwise go unreported.  
+  
+*Objectives*:  
+a) To track tweets and Yelp reviews(corresponding to a particular geographic area - San Francisco) for food poisoning or illness related words.  
+b) To correlate the tweets and reviews to the Hospital Patient Diagnosis Data.  
+  
+*Data*:  
+a) Twitter data -  Need to extract data  
+b) Yelp Review -  Need to extract data  
+c) Patient Discharge Diagnosis -  http://catalog.data.gov/dataset/patient-discharge-data-by-principal-diagnosis
+  
+**Proposal 3:**  
+Differentiating various Health Insurance plans based on family size, states and claim management.  
+
+*Problem*:  
+In the United States, health insurance is any program that helps pay for medical expenses, whether through privately purchased insurance, social insurance or a social welfare program funded by the government. As of 2010 just under 84% of Americans had some form of health insurance, which meant that more than 49 million people went without coverage for at least part of the year. Declining rates of coverage and under insurance are largely attributable to rising insurance costs and high unemployment.  
+  
+*Objective*:  
+a) To find out health coverage across various states, family size, family history etc.  
+b) To predict the claims ratio for the next year.  
+c) To find out the best healthcare plan according to different family size.  
+d) To find out the current trend in out-of-pocket expenses.  
+  
+*Data*:  
+a) Kaggle competition -  https://www.kaggle.com/hhsgov/health-insurance-marketplace  
+  
+**Proposal 4:**  
+Predicting patient experience/engagement analysis.  
+  
+*Problem*:  
+Patients value the interpersonal aspects of their health care experiences. Patient experience is a measure of patient-centeredness, one of six health care quality aims proposed by the Institute of Medicine (IOM). Research has consistently demonstrated that patient experience correlates with clinical processes of care for prevention and disease management and with better health outcomes.  
+  
+Although there is value in both systematic and user-driven content, the dearth of evidence-based, standardized, and representative patient experience data threatens the accuracy and utility of the information.
+  
+*Objective*:  
+a) To predict patient engagement to clinic ratio.  
+b) To understand factors that contribute to better patient-clinician relationship.  
+c) To predict if poor patient engagement results in more readmission.  
+d) To predict relationship between patient engagement and hospital acquired infection(HAI).  
+  
+*Data*:  
+a) HCAHPS Survey - http://catalog.data.gov/dataset/hcahps-hospital  
+b) Twitter -  Need to extract data  
+c) Discharge type -  http://catalog.data.gov/dataset/patient-discharge-data-by-principal-diagnosis  
+d) Post-discharge infection -   i) http://catalog.data.gov/dataset/healthcare-associated-infections-hospital   
+ii) http://catalog.data.gov/dataset/measurable-hospital-acquired-conditions-composite-patient-safety-indicator-statewide-2011-  
+e) Readmission Rates -  
+i) https://catalog.data.gov/dataset/readmissions-complications-and-deaths-hospital  
+ii) https://catalog.data.gov/dataset/hospital-readmission-reduction  
+  
+**Proposal 5:**  
+Mitosis Detection in Breast Cancer Histology Images.  
+  
+*Problem*:  
+Breast cancer is a major cause of death in the world.  According to  gures published by the International Agency for Research on Cancer in their GLOBOCAN 2012 estimated cancer incidence, mortality and prevalence worldwide, the three most common cancers in the world were lung (1.825 million cases for both sexes, 583.000 cases for women only), breast (1.677 million cases) and colorectal (1.361 million cases for both sexes, 614.000 cases for women only).  For women, breast cancer is by far the most frequent cancer worldwide.  
+  
+*Objective*:  
+a) To detect mitosis on H&E stained biopsies.
+b) To evaluate the score of nuclear atypia.
+  
+*Data*:  
+a) ICPR 2014 - http://mitos-atypia-14.grand-challenge.org/donwload/   
